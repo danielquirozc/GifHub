@@ -30,3 +30,17 @@ npm install
 # Iniciar el servidor local
 npm run dev
 ```
+
+## Configuración
+
+- Obtén una clave de API de Giphy [aquí](https://developers.giphy.com/explorer/)
+
+- Crea un archivo .env en la raíz del proyecto y agrega tu clave de API:
+
+```bash
+.env
+
+VITE_API_KEY=TU_CLAVE_DE_API
+
+```
+  
