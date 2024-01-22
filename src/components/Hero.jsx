@@ -1,3 +1,4 @@
+import heroGif from "../assets/heroGif.mp4";
 
 function Hero() {
 
@@ -15,7 +16,7 @@ function Hero() {
         <h3 className="font-poppins font-bold text-orange-200/75">Find your favorite gifs</h3>
         <button onClick={scrollTo} className="outline-nome py-1 bg-orange-400 text-orange-800 mt-1 font-bold font-inter px-4 w-[250px] rounded">Get Started</button>
       </div>
-      <video src="../public/heroVideo.mp4" autoPlay loop className="w-full h-full object-cover"></video>
+      <video src={heroGif} autoPlay loop className="w-full h-full object-cover"></video>
     </section>
   )
 }
