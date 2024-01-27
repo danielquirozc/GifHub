@@ -21,7 +21,7 @@ function App() {
     if (search === "") {
       getTrendingGifs().then(data => setGifs(data))
     } else {
-      getTrendingGifs().then(data => setGifs(data.filter(gif => gif.title.toLowerCase().includes(search.toLowerCase()))))
+      getTrendingGifs(search).then(data => setGifs(data))
     }
   },[search])
 
